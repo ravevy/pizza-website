@@ -42,14 +42,16 @@ body{
 .main-text, h4{
   opacity: 93%;
 }
-.btn-outline-dark, .btn-outline-dark:visited{
-  color: #24204E !important;
-  border-color: #24204E !important;
+.btn-dark, .btn-dark:visited{
+ background-color: #24204E !important;
+ border-color: #24204E !important;
+
 }
-.btn-outline-dark:hover, .btn-outline-dark:active{
+.btn-dark:hover, .btn-dark:active{
   color: white !important;
-  border-color: #24204E !important;
-  background-color: #24204E !important;
+  border-color: #4d78d3 !important;
+  background-color: #4d78d3 !important;
+  font-size: 1.03rem;
 }
 .footer, .footer a, .footer i{
   text-decoration: none;
@@ -59,4 +61,10 @@ body{
 }
 .footer a:hover, .footer i:hover{
   font-weight: bold;
+}
+#hugepizza{
+  max-width: 408px;
+}
+#sliced{
+  min-width: 306px
 }

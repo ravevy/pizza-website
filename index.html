@@ -21,18 +21,13 @@
 <body>
 
 <!--Navigation Bar-->
-  <nav class="navbar navbar-expand-sm kırmızı-ara d-flex p-2 ">
-    <a href="index.html" class="navbar-brand text-white tab ps-2 mx-auto me-sm-auto "><img src="pics/pizza.png" alt="pizza slice" width="30" height="30" class="me-1">Pizza Time</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="">
-        <i class="fa fa-bars" aria-hidden="true" style="color:#fff; border: none; font-size:18px;"></i></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto d-flex text-end">
-      <li><a href="" class="tab ms-2 me-2">Menu</a></li>
-      <li><a href="" class="tab ms-2 me-2">Us</a></li>
+  <nav class="navbar navbar-expand kırmızı-ara d-flex p-2 ">
+    <a href="index.html" class="navbar-brand text-white tab ps-2 me-sm-auto "><img src="pics/pizza.png" alt="pizza slice" width="30" height="30" class="me-1">Pizza Time</a>
+      <ul class="navbar-nav text-end d-flex ms-auto">
+      <li><a href="" class="tab mx-2 mx-md-4">Menu</a></li>
+      <div class="vr"></div>
+      <li><a href="" class="tab mx-2 mx-md-4">Us</a></li>
       </ul>
-    </div>
   </nav>
 
 <!--Entrance-->
@@ -40,11 +35,11 @@
     <div class="container text-color my-5" >
       <div class="flex-row d-flex align-items-center" >      
         <div class="col text-center main-text">
-            <div class="col-12 my-5"><h1>You deserve<br><i>a good pizza.</i></h1></div>
+            <div class="col-12 my-5"><h1>You deserve<br>a good pizza.</h1></div>
             <div class="col-12 my-5"><h1> Don't let it roll.</h1></div>
         </div>
         <div class="col text-center">
-            <img id="hugepizza" class="position-relative wh-75 w-75" src="pics/pizzahuge.png" alt="a huge pizza">
+            <img id="hugepizza" class="position-relative w-75" src="pics/pizzahuge.png" alt="a huge pizza">
         </div>
       </div>
     </div>
@@ -53,17 +48,19 @@
 <!--Ara-->
   <div class="ara-renk py-5 px-5 d-flex align-items-center"><hr>
     <div class="row d-flex mx-auto py-5 gy-5 text-center">
-      <div class="col-sm-4 px-5">
+      <div class="col-md-4 px-5">
         <img src="pics/deliveryguy.png" style="height: 100px" alt="pizza delivery guy" class="mb-3">
         <h4>Home Delivery</h4>
         <p class="opacity-75">We can deliver your prefered pizza fresh from the oven to your home in the blink of the eye.</p>
       </div>
-      <div class="col-sm-4 px-5">
+      <hr class="d-md-none opacity-25">
+      <div class="col-md-4 px-5">
         <img src="pics/restaurant.png" style="height: 100px" alt="pizza restaurant" class="mb-3">
         <h4>Restaurant</h4>
         <p class="opacity-75">Our guests are always welcomed in our restaurants for a nice meal.</p>
       </div>
-      <div class="col-sm-4 px-5">
+      <hr class="d-md-none opacity-25">
+      <div class="col-md-4 px-5">
         <img src="pics/pizzainbox.png" style="height: 100px" alt="pizza slices in pizza box" class="mb-3">
         <h4>Get Yourself</h4>
         <p class="opacity-75">Receive your order from one of our restaurants and benefit from benefits!</p>
@@ -75,11 +72,11 @@
   <div class="container my-5">
     <div class="row text-center d-flex align-items-center">
       <div class="col">
-      <img src="pics/slicedpizza.png" class="position-relative w-75 h-75"  alt="another huge pizza">
+      <img id="sliced" src="pics/slicedpizza.png" class="position-relative w-100"  alt="another huge pizza">
       </div>
-      <div class="col text-color main-text">
+      <div class="col text-color main-text my-4">
         <h3>Come on, take a slice.</h3>
-        <a href="" class="mt-3 btn btn-outline-dark btn-lg">Check our pizzas!</a>
+        <a href="" class="mt-4 btn btn-dark">Check our pizzas!</a>
       </div>
     </div>
   </div> 
@@ -87,15 +84,16 @@
   <!--Ordering-->
   <div class="kırmızı-ara-light py-2 px-5 d-flex align-items-center"><hr>
     <div class="row d-flex mx-auto py-5 gy-5 text-center">
-      <div class="col-sm-6 px-5">
+      <div class="col-md-4 px-5 mx-auto">
         <img src="pics/callpizza.png" style="height: 75px" alt="pizza delivery guy" class="mb-3">
         <h5>Call us!</h5>
-        <p class="opacity-75 px-5">Our call agency will assist your order and give information abour our promotions.</p>
+        <p class="opacity-75">Our call agency will assist your order and give information abour our promotions.</p>
       </div>
-      <div class="col-sm-6 px-5">
+      <hr class="d-md-none opacity-25">
+      <div class="col-md-4 px-5 mx-auto">
         <img src="pics/smartphone.png" style="height: 75px" alt="pizza restaurant" class="mb-3">
         <h5>Phone App</h5>
-        <p class="opacity-75 px-5">You can choose your favourite pizza from our phone application.</p>
+        <p class="opacity-75">You can choose your favourite pizza from our phone application.</p>
       </div>
     </div>
   </div>
@@ -110,7 +108,7 @@
   
 
   <!--sayfa başına git butonu-->
-  <span id="tepebutonu" class="btn btn-light"><img src="pics/arrow.png" alt="yukarı oku" style="width: 20px"></span>
+  <span id="tepebutonu" class="btn btn-light border border-1 border-secondary"><img src="pics/arrow.png" alt="yukarı oku" style="width: 20px"></span>
 
   <!--fontawesome scripti-->
   <script src="https://kit.fontawesome.com/a1f70aa864.js" crossorigin="anonymous"></script>
